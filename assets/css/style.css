@@ -31,6 +31,10 @@ html{
     background-color: #000;
 }
 
+#nav {
+    display: inline-block;
+}
+
 #nav, .subnav{
     list-style-type: none;
 }
@@ -83,6 +87,30 @@ html{
     padding: 0 12px;
     line-height: 38px;
 }
+
+#nav .nav-sort-down{
+    color: #fff;
+    font-size: 14px;
+
+}
+
+#header .search-btn{
+    float: right;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0 21px;
+}
+
+
 
 #slider{
     /* min-height: 500px;
