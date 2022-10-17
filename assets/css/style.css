@@ -17,6 +17,9 @@
 3. Màu sắc
 4. Kiểu dáng (kiểu chữ, hình tròn, vuông,..v..v..)
 */ 
+.clear {
+    clear: both;
+}
 
 html{
     font-family: Arial, Helvetica, sans-serif;
@@ -121,7 +124,7 @@ html{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/assets/img/chicago.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider/chicago.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content{
@@ -182,6 +185,29 @@ html{
     margin-top: 25px;
     text-align: justify;
     line-height: 1.4;
+}
+
+#content .member-list {
+    margin-top: 48px;
+    /* overflow: hidden; */
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100%/3);
+    text-align: center;
+
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+
 }
 
 #footer{
